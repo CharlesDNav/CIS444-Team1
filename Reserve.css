@@ -1,0 +1,126 @@
+/* Set font color to white */
+body,
+.navbar-nav .nav-link,
+.navbar-brand,
+h1,
+label,
+button,
+.error,
+.Contact p,
+.Contact h6 {
+  color: white !important;
+  background-color: black !important; 
+}
+
+/* Set background color to black */
+body,
+.navbar,
+.container-fluid {
+  background-color: black !important;
+}
+
+/* Set the color of the navbar toggler icon to white */
+.navbar-toggler-icon {
+  filter: invert(1);
+  
+}
+
+/* Additional CSS for reservation form */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: black !important; 
+}
+
+.reservation-container {
+  display: flex;
+  justify-content: center;
+  background-color: black !important; 
+}
+
+.reservation-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: black !important; 
+}
+
+.form-element {
+  margin-bottom: 10px;
+  background-color: black !important; 
+}
+
+label {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: green; /* Set background color of button to green */
+  color: white; /* Set font color of button to white */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Add padding to button */
+  border-radius: 5px; /* Add border radius to button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+  background-color: darkgreen; /* Change background color of button on hover */
+}
+
+.error {
+  color: red;
+}
+
+/* Media Query for adjusting layout on smaller screens */
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column; /* Change to column layout on smaller screens */
+    align-items: center; /* Center-align form elements */
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  
+
+  .reservation-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center; /* Center-align content horizontally */
+    
+  }
+
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .form-group {
+    margin: 0 5px;
+    text-align: center; /* Center-align content horizontally */
+  }
+
+  .form-group input,
+  .form-group select {
+    width: 100px; /* Adjust width as needed */
+    margin: 0; /* Remove margin to prevent unwanted spacing */
+  }
+
+  .form-group label,
+  .form-group select,
+  .form-group input[type="date"],
+  .form-group input[type="time"] {
+    width: 100%; /* Set inputs to occupy full width on smaller screens */
+  }
+}
+
