@@ -1,0 +1,91 @@
+body {
+  color: white;
+  background-color: black;
+  
+}
+
+.navbar {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* Set all text color to white */
+body,
+.navbar-nav .nav-link,
+.navbar-brand {
+  color: white;
+}
+
+/* Set background color of navbar to your desired color */
+.navbar {
+  background-color: black; /* Example color */
+}
+
+/* Set the color of the navbar toggler icon to white */
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.menu {
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px; /* Adjust as needed */
+  justify-content: center !important;
+  align-items: center !important;
+  height: 200vh;
+  margin: 0;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
+.Contact {
+  margin-bottom: 20px; /* Adjust margin bottom for spacing */
+}
+
+.map-container {
+  margin-bottom: 20px; /* Adjust margin bottom for spacing */
+  overflow: hidden;
+}
+
+.hours {
+  margin-top: 20px; /* Adjust margin top for spacing */
+}
+
+
+tyle>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 32%;
+  padding: 10px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; 
+
+}
+
+
