@@ -1,0 +1,26 @@
+body {
+  
+  color: white; /* Set font color to white */
+  background-color: black; /* Set background color to black */
+}
+.navbar {
+background-color: black !important;
+color: white !important; 
+
+}
+
+ /* Set all text color to white */
+ body, .navbar-nav .nav-link, .navbar-brand {
+  
+   color: white;
+ }
+
+ /* Set background color of navbar to your desired color */
+ .navbar {
+   background-color: black; /* Example color */
+ }
+
+ /* Set the color of the navbar toggler icon to white */
+ .navbar-toggler-icon {
+   filter: invert(1);
+ }
